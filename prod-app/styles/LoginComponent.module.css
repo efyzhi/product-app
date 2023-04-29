@@ -1,0 +1,110 @@
+.loginContainer {
+    background-color: #fff;
+}
+
+.linkedinLogo {
+    width: 3.75rem;
+    height: 3.75rem;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+}
+
+.heading {
+    font-family: system-ui;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.subHeading {
+    margin-top: -20px;
+    font-family: system-ui;
+}
+
+
+.loginInner {
+    margin-left: 200px;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    gap: 10px;
+}
+
+.commonInput {
+    height: 1.875rem;
+    padding: 0.625rem;
+    background-color: white;
+    outline: none;
+    border: 1px solid #212121;
+    border-radius: 3px;
+    color: #212121;
+    font-family: system-ui;
+    font-size: 18px;
+    
+}
+
+.commonInput :focus {
+    outline: 1px solid #0072b1;
+}
+
+.input::placeholder {
+    font-family: system-ui;
+    font-family: 16px;
+}
+
+
+.loginBtn {
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #0073b1;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 30px;
+    border: none;
+    font-family: system-ui;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.loginBtn:hover {
+    background-color: #004c75;
+}
+
+.hrText {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5; 
+}
+    .hrTest:before {
+      content: '';
+      /* use the linear-gradient for the fading effect */
+      /* use a solid background color for a solid bar */
+      background: linear-gradient(to right, transparent, #818078, transparent);
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+    .hrText:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: black;
+      padding: 0 .5em;
+      line-height: 1.5em;
+      /* this is really the only tricky part, you need to specify the background color of the container element... */
+      color: #818078;
+      background-color: #fcfcfa;
+    }
+    
+  

@@ -1,0 +1,11 @@
+body {
+  font-size: 16px;
+  background-color: rgba(18, 10, 10, 0.474);
+  color: #212121;
+  font-family: system-ui, Avenir Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

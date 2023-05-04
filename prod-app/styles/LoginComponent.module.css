@@ -1,5 +1,6 @@
 .loginContainer {
-    background-color: #fff;
+    background-color: #fff !important;
+    height: 110vh;
 }
 
 .linkedinLogo {
@@ -23,6 +24,10 @@
 
 
 .loginInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-left: 200px;
 }
 
@@ -105,6 +110,30 @@
       /* this is really the only tricky part, you need to specify the background color of the container element... */
       color: #818078;
       background-color: #fcfcfa;
+    }
+
+    .googleBtnBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px; 
+    }
+
+    .googleBtn {
+        width: 300px !important;
+    }
+
+    .goSignup {
+        margin-left: 50px;
+        font-size: 18px;
+    }
+
+    .joinNow {
+        color: #0073b1;
+        font-family: system-ui;
+        cursor: pointer;
+        font-size: 18px;
     }
     
   
